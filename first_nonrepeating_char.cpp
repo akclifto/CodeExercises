@@ -9,8 +9,8 @@ using namespace std;
 #define NO_OF_CHARS 256
 
 /*Given a string, find the first non-repeating character in it. For example,
- *if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string
- *is “GeeksQuiz”, then output should be ‘G’*/
+ *if the input string is â€œGeeksforGeeksâ€, then output should be â€˜fâ€™ and if input string
+ *is â€œGeeksQuizâ€, then output should be â€˜Gâ€™*/
 
 int *get_char_count(char *str)
 {
@@ -60,7 +60,7 @@ int main()
 	int index = first_nonRepeater(str);
 	check_string(str, index);
 
-	//check string, no repeating strings
+	//check string, no non-repeating strings
 	char str2[] = "aaaaaa";
 	index = first_nonRepeater(str2);
 	check_string(str2, index);
