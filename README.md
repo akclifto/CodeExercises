@@ -1,2 +1,2 @@
-# LeetCodeExercises
-problems from leetcode for practice.
+# CodeExercises
+problems from leetcode and others for practice.
