@@ -82,7 +82,7 @@
 	//check to make sure heights are not more than 1 apart and 
 	//then  recursively check same for left and right subtree
 	if(abs(lhand - rhand) <= 1 && isBalanced(root->left) &&
-			isBalanced(root->right)) {
+		isBalanced(root->right)) {
 			
 		return 1;
 	}
@@ -93,7 +93,7 @@
  }
  
  //display output
- void display (bool flag) {
+ void display(bool flag) {
 	 
 	 if(flag) {
 		cout << "The tree is balanced!\n";
