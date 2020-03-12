@@ -3,6 +3,7 @@
 		Determine whether an integer is a palindrome. 
 		An integer is a palindrome when it reads the same backward as forward.
  
+ SOLUTION:  convert the int to a string, reverse and compare
 */
 
 /*runtime: 11ms*/
