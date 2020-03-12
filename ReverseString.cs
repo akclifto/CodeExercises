@@ -1,4 +1,4 @@
-﻿/*
+/*
  Reverse words in a given string.
 
  *Examples:
@@ -17,20 +17,21 @@ namespace ReverseStringWords
 {
     class ReverseString
     {
+        /*Main method driver*/
         static void Main()
         {
             string[] lines = "write this from front to back".Split(' ');
             DisplayString(lines);
             DisplayReversed(lines);
             Console.WriteLine();
-         
+
             lines = "one_word".Split(' ');
             DisplayString(lines);
             DisplayReversed(lines);
-
+            Console.WriteLine();
         }
 
-
+        /*Helper to display string */
         static void DisplayString(string[] lines)
         {
             Console.Write("String to Reverse: \t");
@@ -41,10 +42,10 @@ namespace ReverseStringWords
             Console.WriteLine();
         }
 
-
+        /*Reverse and display string*/
         static void DisplayReversed(string[] lines)
         {
-
+            
             string answer = "";
 
             for (int i = lines.Length - 1; i >= 0; i--)
