@@ -23,6 +23,10 @@ namespace ReverseStringWords
             DisplayString(lines);
             DisplayReversed(lines);
             Console.WriteLine();
+         
+            lines = "one_word".Split(' ');
+            DisplayString(lines);
+            DisplayReversed(lines);
 
         }
 
