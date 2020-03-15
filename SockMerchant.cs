@@ -32,13 +32,11 @@ class Solution
                 i++;
             }
         }
-
         return count;
     }
 
     static void Main(string[] args)
     {
-
         int n = 10;
         int[] ar = {10, 20, 20, 10, 10, 30, 50, 10, 20, 50};
         int result = sockMerchant(n, ar);
