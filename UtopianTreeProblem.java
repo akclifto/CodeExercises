@@ -7,7 +7,7 @@
 	For example, if the number of growth cycles is , the calculations are as follows:
 
 	Period  Height
-	0          1		//if h = 0, then h + 1
+	0          1		//if n = 0, then h + 1
 	1          2		// h * 2
 	2          3		// h + 1 , ... ,
 	3          6		// h * 2 , ... ,  
