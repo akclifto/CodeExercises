@@ -23,7 +23,7 @@
 
 	_/\      _
 	   \    /
-		\/\/
+            \/\/
 	He enters and leaves one valley.
 
 */
