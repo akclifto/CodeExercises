@@ -1,2 +1,2 @@
 # CodeExercises
-problems from leetcode and others for practice.
+problems from leetcode, hackerrank, geeks4geeks interview prep, and others for practice.
