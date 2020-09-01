@@ -33,7 +33,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
-using System.Text;a
+using System.Text;
 using System;
 
 class Solution {
@@ -51,7 +51,7 @@ class Solution {
         long repitition = n / s.Length;
         count = count * repitition;
 
-        //check the modulus to see if 'a' occurs, then add to count.
+        //check the remainder to see if 'a' occurs, then add to count.
         for(int i = 0; i < n % s.Length; i++){
             if(s[i].Equals('a')) count++;
         }
