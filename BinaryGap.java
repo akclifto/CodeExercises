@@ -44,7 +44,7 @@ class Solution {
         }
         
         //loop through ch[], if c is 0, start the count, if c is 1, reset count
-        //if gap not greater than the current gap
+        //if gap greater than the current gap
         for(char c : ch){
             if(c =='0') {
                 j++;
